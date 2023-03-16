@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>website</title>
+  <link rel="stylesheet" type="text/css" href="sample.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<style type="text/css">
+
+		body{
+			background-image: url("bb.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			  background-attachment: fixed;
+		}
+    .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+   text-decoration: none;
+  display: block;
+ 
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	</style>
+
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="marvel.jpg" alt="logo" style="width:150px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Marvel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Comics</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Marvel Phases
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Phase 1</a>
+        <a class="dropdown-item" href="#">Phase 2</a>
+        <a class="dropdown-item" href="#">Phase 3</a>
+        <a class="dropdown-item" href="#">Phase 4</a>
+        <a class="dropdown-item" href="#">Phase 5</a>
+        <a class="dropdown-item" href="#">Phase 6</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+      <button class="btn" style="color:whitesmoke;">Charecters</button>
+      <div class="dropdown-content">
+      <a href="#">Iron Man</a>
+      <a href="#">Captain America</a>
+      <a href="#">Thor</a>
+      <a href="#">Hulk</a>
+      <a href="#">Black Widow</a>
+      <a href="#">Hawkeye</a>
+      <a href="#">Wanda Vision</a>
+      <a href="#">Ant Man</a>
+      <a href="#">Black Panther</a>
+      <a href="#">Spider Man</a>
+      <a href="#">View More...</a>
+  </div>
+</div>
+    </li>
+  </ul>
+</nav>
+
+
+	
+</head><br><br>
+<body>
+
+
+
+
+
+
+<div class="container">
+  <h1 class="Heading">Marvel Studios</h1>
+  <p>Marvel Studios, LLC[5] (originally known as Marvel Films from 1993 to 1996) is an American film and television production company that is a subsidiary of Walt Disney Studios, a division of the Walt Disney Company. Marvel Studios produces the Marvel Cinematic Universe films, based on characters that appear in Marvel Comics publications.[6]
+
+    Since 2008, Marvel Studios has released 29 films within the Marvel Cinematic Universe, from Iron Man (2008) to Thor: Love and Thunder (2022), and eight television series since 2021, from WandaVision (2021) to She-Hulk: Attorney at Law (2022). The television series What If...? (2021) is the studio's first animated property. These films and television series all share continuity with each other, along with the One-Shots produced by the studio. The television series produced by Marvel Television also acknowledge the continuity.
+    
+    In addition to the Marvel Cinematic Universe, Marvel Studios was also involved with the production of other Marvel-character film franchises that have exceeded $1 billion in North American box office revenue, including the X-Men and Spider-Man multi-film franchises.</p>
+    <br><br>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Phase Details
+    </button>
+    <div class="dropdown-menu">
+    <div class="dropdown-header">Phase One</div>
+      <a class="dropdown-item active " href="#">Iron Man</a>
+      <a class="dropdown-item" href="#">The Incredible Hulk</a>
+      <a class="dropdown-item" href="#">Iron Man 2</a>
+      <a class="dropdown-item" href="#">Thor</a>
+      <a class="dropdown-item" href="#">Captain America: The First Avenger</a>
+      <a class="dropdown-item" href="#">Marvel's The Avengers</a>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-header">Phase Two</div>
+      <a class="dropdown-item" href="#">Iron Man 3</a>
+      <a class="dropdown-item" href="#">Thor: The Dark World</a>
+      <a class="dropdown-item" href="#">Captain America: The Winter Soldier</a>
+      <a class="dropdown-item" href="#">Guardians of the Galaxy</a>
+      <a class="dropdown-item" href="#">Avengers: Age of Ultron</a>
+      <a class="dropdown-item" href="#">Ant-Man</a>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-header">Phase Three</div>
+      <a class="dropdown-item" href="#">Captain America: Civil War</a>
+      <a class="dropdown-item" href="#">Doctor Strange</a>
+      <a class="dropdown-item" href="#">Guardians of the Galaxy Vol. 2</a>
+      <a class="dropdown-item" href="#">Spider-Man: Homecoming</a>
+      <a class="dropdown-item" href="#">Thor: Ragnarok</a>
+      <a class="dropdown-item" href="#">Black Panther</a>
+      <a class="dropdown-item" href="#">Avengers: Infinity War</a>
+      <a class="dropdown-item" href="#">Ant-Man and the Wasp</a>
+      <a class="dropdown-item" href="#">Captain Marvel</a>
+      <a class="dropdown-item" href="#">Avengers: Endgame</a>
+      <a class="dropdown-item" href="#">Spider-Man: Far From Home</a>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-header">Phase Four</div>
+      <a class="dropdown-item" href="#">Black Widow</a>
+      <a class="dropdown-item" href="#">Shang-Chi and the Legend of the Ten Rings</a>
+      <a class="dropdown-item" href="#">Eternals</a>
+      <a class="dropdown-item" href="#">Spider-Man: No Way Home</a>
+      <a class="dropdown-item" href="#">Doctor Strange in the Multiverse of Madness</a>
+      <a class="dropdown-item" href="#">Thor: Love and Thunder</a>
+      <a class="dropdown-item" href="#">Black Panther: Wakanda Forever</a>
+      
+    </div><br><br>
+    <h1>Super Heros</h1>
+  </div>
+  <br><br>
+</div>
+
+
+
+
+
+
+	<div class="container">
+<div class="card-deck">
+<div class="row m-4">
+  
+ 
+ <div class="card" style="width: 180px; height: 450px; font-size: small;">
+    <img class="card-img-top" src="im.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b>Robert Downey Jr.</b></h7>
+      <p class="card-text">(born April 4, 1965)</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+ <div class="card" style="width: 180px; height: 450px; font-size: small;">
+    <img class="card-img-top" src="ca.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b>Christopher Robert Evans</b></h7>
+      <p class="card-text">(born June 13, 1981) is an American actor </p>
+      <a href="#" class="btn btn-primary stretched-link" style="margin-bottom:0;">See Profile</a>
+    </div>
+  </div>
+ <div class="card" style="width: 180px; height: 450px; font-size:small">
+    <img class="card-img-top" src="to.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b>Hemsworth</b></h7>
+      <p class="card-text">(born 11 August 1983[2]) is an Australian actor </p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+  <div class="card" style="width: 180px; height: 450px; font-size:small">
+    <img class="card-img-top" src="sp.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b>Thomas Stanley Holland</b></h7>
+      <p class="card-text">(born 1 June 1996) is an English actor </p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+  <div class="card" style="width: 180px; height: 450px; font-size:small">
+    <img class="card-img-top" src="bw.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b>Scarlett Ingrid Johansson</b></h7>
+      <p class="card-text">(born November 22, 1984) is an American actress </p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+  <div class="card" style="width: 180px; height: 450px; font-size:small">
+    <img class="card-img-top" src="hk.jpeg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h7 class="card-title"><b> Alan Ruffalo</b></h7>
+      <p class="card-text">( born November 22, 1967) is an American actor. </p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+  
+ </div>
+</div></div>
+
+<div class="container">
+  <div class="card-deck">
+  <div class="row m-4">
+
+    
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="bp.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Chadwick Boseman</b></h7>
+        <p class="card-text">November 29, 1976[a] – August 28, 2020) was an American actor </p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="nf.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Samuel Leroy Jackson</b></h7>
+        <p class="card-text"> (born December 21, 1948) is an American actor</p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="lk.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Thomas William Hiddleston</b></h7>
+        <p class="card-text">(born 9 February 1981) is an English actor </p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="hw.webp" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Jeremy Lee Renner</b></h7>
+        <p class="card-text"> (born January 7, 1971) is an American actor </p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="fl.webp" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Anthony Dwane Mackie</b></h7>
+        <p class="card-text">(born September 23, 1978) is an American actor. </p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 180px; height: 450px; font-size:small">
+      <img class="card-img-top" src="cm.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h7 class="card-title"><b>Brianne Sidonie Desaulniers</b></h7>
+        <p class="card-text">(born October 1, 1989), is an American actress </p>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+    </div>
+
+
+
+  </div>
+  </div></div>
+
+
+  <div class="container">
+    <div class="card-deck">
+    <div class="row m-4">
+  
+      
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="bk.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>Sebastian Stan</b></h7>
+          <p class="card-text">(born August 13, 1982) is a American actor. </p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="pp.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>Gwyneth Paltrow</b></h7>
+          <p class="card-text">  27 September 1972 (age 49 years) is an American actor</p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="hp.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>Jonathan Kolia Favreau</b></h7>
+          <p class="card-text">(born October 19, 1966) is an American actor and filmmaker. </p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="ds.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>Benedict Timothy Carlton Cumberbatch</b></h7>
+          <p class="card-text"> (born 19 July 1976) is an English actor.</p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="lt.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>Natalie Portman</b></h7>
+          <p class="card-text"> is an Israeli-born American actress. </p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 180px; height: 450px; font-size:small">
+        <img class="card-img-top" src="dr.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h7 class="card-title"><b>David Michael Bautista Jr.</b></h7>
+          <p class="card-text"> (born January 18, 1969) is an American actor </p>
+          <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        </div>
+      </div>
+  
+  
+  
+    </div>
+    </div></div>
+
+
+
+</div><br><br>
+
+
+
+<div class="container">
+  <h2>Super Hero's</h2><br>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Directors
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Phases</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Jon Favreau,
+          James Gunn,Joss Whedon,Taika Waititi,
+          Jon Watts,Ryan Coogler,Peyton Reed,
+          Scott Derrickson,Joe Johnston,
+          Ryan Fleck,
+          Shane Black,
+          Chloé Zhao,
+          Destin Daniel Cretton,
+          Louis Leterrier,
+          Sam Raimi,Alan Taylor,
+          Joe Russo,
+          Anna Boden,
+          Kevin Feige,
+          Nia DaCostaAnthony Russo,
+          Edgar Wright
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div><br><br><br>
+
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="a1.jpg" alt="" width="400" height="350"class="mx-auto d-block" style="width:50%">
+      <div class="carousel-caption">
+        <h6>The Avengers</h6>
+        <p>Marvel's The Avengers or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="a2.png" alt="" width="400" height="350"class="mx-auto d-block" style="width:50%">
+      <div class="carousel-caption">
+        <h6>Avengers: Age of Ultron</h6>
+        <p>Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="a3.webp" alt="" width="400" height="350"class="mx-auto d-block" style="width:50%">
+      <div class="carousel-caption">
+        <h6>Avengers: Infinity War</h6>
+        <p>Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and Avengers: Age of Ultron (2015), and the 19th film in the Marvel Cinematic Universe (MCU)</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="a4.webp" alt="" width="400" height="350"class="mx-auto d-block" style="width:50%">
+      <div class="carousel-caption">
+        <h6>Avengers: Endgame</h6>
+        <p>Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU)</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+
+<!--<div ng-app="myApp" ng-controller="namesCtrl">
+
+<p>Type a letter in the input field:</p>
+
+<p><input type="text" ng-model="test"></p>
+
+<ul>
+  <li ng-repeat="x in names | filter:test">
+    {{ x }}
+  </li>
+</ul>
+
+</div>
+
+<script>
+angular.module('myApp', []).controller('namesCtrl', function($scope) {
+    $scope.names = [
+        'Santa Cruz Basilica',
+        'Cherai Beach',
+        'Jew Town',
+        'Veeranpuzha Beach',
+        'Kodanad Elephant Sanctuary',
+        'Fort Kochi',
+        'M.G. Road',
+        'Kerala Folklore Museum',
+        'Veeranpuzha Backwaters'
+    ];
+});
+</script>
+
+<p>Places to Visit in Kochi.</p>-->
+
+
+<br>
+<br>
+
+
+</body>
+</html>
